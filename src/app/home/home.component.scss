@@ -1,0 +1,13 @@
+.carousel-container {
+    height: 250px;
+    width: 500px;
+}
+
+.information-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.information-item {
+    flex-grow: 1;
+}

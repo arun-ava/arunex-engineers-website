@@ -1,0 +1,22 @@
+.card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 150px;
+    justify-content: space-between;
+}
+
+.ar-card-header {
+    height: 20%;
+}
+
+.ar-card-body {
+    width: 200px;
+    height: 60%;
+}
+
+.card-button {
+    border: #0c3c60 solid 1px;
+    background-color: unset;
+    color: #0c3c60;
+}

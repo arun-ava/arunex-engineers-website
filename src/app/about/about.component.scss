@@ -1,0 +1,28 @@
+.general-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.general-description {
+    text-align: center;
+    padding: 30px;
+}
+
+.general-image-container {
+    text-align: center;
+}
+
+.general-image {
+    width: 200px;
+}
+
+.general-item {
+    width: 50%;
+}
+
+.header-label {
+    margin-left: 45%;
+    font-size: 36px;
+    color: #072136;
+}

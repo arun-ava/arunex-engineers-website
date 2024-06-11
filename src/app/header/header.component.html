@@ -1,0 +1,12 @@
+<div class="header-container">
+    <span>
+        <span class="title-header">
+            {{title_header}}
+        </span>
+    </span>
+    <span>
+        <span class="nav-head" (click)="navItemClick(head)" *ngFor = "let head of nav_headers">
+            {{head}}
+        </span>
+    </span>
+</div>
