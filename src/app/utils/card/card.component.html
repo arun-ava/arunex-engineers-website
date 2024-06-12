@@ -5,5 +5,5 @@
     <span class="ar-card-body">
         {{body}}
     </span>
-    <button mat-stroked-button class="card-button">{{buttonLabel}}</button>
+    <button *ngIf="buttonLabel.length > 0" mat-stroked-button class="card-button">{{buttonLabel}}</button>
 </div>

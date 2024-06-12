@@ -7,6 +7,6 @@ import { IconPath } from '../static/icons';
   styleUrls: ['./about.component.scss']
 })
 export class AboutComponent {
-  headerGeneralText = 'Arunex Engineers is an automation and instrumentation company founded in 2000. We have clients all over the world.Arunex Engineers is an automation and instrumentation company founded in 2000. We have clients all over the world.Arunex Engineers is an automation and instrumentation company founded in 2000. We have clients all over the world.Arunex Engineers is an automation and instrumentation company founded in 2000. We have clients all over the world.'
+  generalText = 'Arunex Engineers is an automation and instrumentation company founded in 2000. We have clients all over the world.Arunex Engineers is an automation and instrumentation company founded in 2000. We have clients all over the world.Arunex Engineers is an automation and instrumentation company founded in 2000. We have clients all over the world.Arunex Engineers is an automation and instrumentation company founded in 2000. We have clients all over the world.Arunex Engineers is an automation and instrumentation company founded in 2000. We have clients all over the world.Arunex Engineers is an automation and instrumentation company founded in 2000. We have clients all over the world.Arunex Engineers is an automation and instrumentation company founded in 2000.'
   skyline_url = IconPath.skyline;
 }
