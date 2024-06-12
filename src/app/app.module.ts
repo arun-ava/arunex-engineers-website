@@ -12,6 +12,7 @@ import { CardComponent } from './utils/card/card.component';
 import { MatModule } from './material.module';
 import { LandingComponent } from './landing/landing.component';
 import { GoogleMapsModule } from '@angular/google-maps';
+import { TestimonialsComponent } from './testimonials/testimonials.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { GoogleMapsModule } from '@angular/google-maps';
     ContactComponent,
     AboutComponent,
     CardComponent,
-    LandingComponent
+    LandingComponent,
+    TestimonialsComponent
   ],
   imports: [
     BrowserModule,
@@ -29,6 +31,7 @@ import { GoogleMapsModule } from '@angular/google-maps';
     BrowserAnimationsModule,
     CarouselModule,
     MatModule,
+    
     GoogleMapsModule
   ],
   providers: [],

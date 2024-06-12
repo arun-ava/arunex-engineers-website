@@ -1,5 +1,6 @@
 
 import { Component } from '@angular/core';
+import { Testimonial } from '../models/interfaces';
 import { IconPath } from '../static/icons';
 
 @Component({
@@ -9,7 +10,7 @@ import { IconPath } from '../static/icons';
 })
 export class TestimonialsComponent {
 
-  slides: any[] = [];
+  slides: Testimonial[] = [];
 
   servicesCardHeader = 'Services';
   projectsCardHeader = 'Projects';
@@ -26,16 +27,22 @@ export class TestimonialsComponent {
   ngOnInit(): void {
     this.slides = [
       {
-        src: IconPath.carousel1,
-        title: 'Some text 1'
+        imagePath: IconPath.carousel1,
+        name: 'John Doe',
+        message: 'Very good company',
+        designation:' CEO Some Company'
       },
       {
-        src: IconPath.carousel2,
-        title: 'Some text 2'
+        imagePath: IconPath.carousel2,
+        name: 'John Doe',
+        message: 'One of the best companies i have ever seen. this is a long message made to test the testimonial container.this is a long message made to test the testimonial container.this is a long message made to test the testimonial container.this is a long message made to test the testimonial container.this is a long message made to test the testimonial container.this is a long message made to test the testimonial container.this is a long message made to test the testimonial container.this is a long message made to test the testimonial container.this is a long message made to test the testimonial container.this is a long message made to test the testimonial container.this is a long message made to test the testimonial container.this is a long message made to test the testimonial container.',
+        designation:' CEO Some Company'
       },
       {
-        src: IconPath.carousel3,
-        title: 'Some text 3'
+        imagePath: IconPath.carousel3,
+        name: 'John Doe',
+        message: 'Very good company',
+        designation:' CEO Some Company'
       },
     ];
   }

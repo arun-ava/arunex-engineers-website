@@ -1,0 +1,23 @@
+<div class="testimonials-container">
+  <h1 class="testimonials-header">
+    Testimonials
+  </h1>
+  <c-carousel class="carousel-container" [interval]="0" transition="slide">
+      <c-carousel-inner >
+        <c-carousel-item class="carousel-item" *ngFor="let slide of slides">
+          <mat-card class="testimonial-card">
+            <mat-card-header>
+              <div mat-card-avatar class="testimonial-header-image"></div>
+              <mat-card-title>{{slide.name}}</mat-card-title>
+              <mat-card-subtitle>{{slide.designation}}</mat-card-subtitle>
+            </mat-card-header>
+            <mat-card-content>
+              <p> {{slide.message}} </p>
+            </mat-card-content>
+          </mat-card>
+        </c-carousel-item>
+      </c-carousel-inner>
+      <c-carousel-control [routerLink] caption="Previous" direction="prev"></c-carousel-control>
+      <c-carousel-control [routerLink] caption="Next" direction="next"></c-carousel-control>
+  </c-carousel>
+</div>
