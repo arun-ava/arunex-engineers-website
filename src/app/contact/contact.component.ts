@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { GoogleMap } from '@angular/google-maps';
 
 @Component({
   selector: 'app-contact',
@@ -7,4 +8,6 @@ import { Component } from '@angular/core';
 })
 export class ContactComponent {
 
+  constructor(){
+  }
 }

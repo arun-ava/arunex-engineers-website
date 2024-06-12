@@ -11,6 +11,7 @@ import { CarouselModule } from '@coreui/angular';
 import { CardComponent } from './utils/card/card.component';
 import { MatModule } from './material.module';
 import { LandingComponent } from './landing/landing.component';
+import { GoogleMapsModule } from '@angular/google-maps';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { LandingComponent } from './landing/landing.component';
     AppRoutingModule,
     BrowserAnimationsModule,
     CarouselModule,
-    MatModule
+    MatModule,
+    GoogleMapsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
