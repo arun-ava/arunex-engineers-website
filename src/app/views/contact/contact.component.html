@@ -1,0 +1,10 @@
+<div style="display: flex; flex-direction: column; height: 90vh; justify-content: space-evenly;">
+    <span style="height: 15%; align-self: center; padding-top: 2%; font-size: 5rem;">
+        GET IN TOUCH
+    </span>
+    <div class="contact-list-container">
+        <app-contact-card class="contact-card" [icon]='emailicon' [header]="emailheader" [subject]="emailsubject" [content]="emailcontent" ></app-contact-card>
+        <app-contact-card class="contact-card" [icon]='phoneicon' [header]="phoneheader" [subject]="phonesubject" [content]="phonecontent" ></app-contact-card>
+        <app-contact-card class="contact-card" [icon]='addressicon' [header]="addressheader" [subject]="addresssubject" [content]="addresscontent" ></app-contact-card>
+    </div>
+</div>

@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
 
-import { ROUTES } from '../static/routes';
-import { IconPath } from '../static/icons';
+import { ROUTES } from '../../static/routes';
+import { IconPath } from '../../static/icons';
 
 @Component({
   selector: 'app-header',

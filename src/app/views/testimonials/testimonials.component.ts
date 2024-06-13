@@ -1,7 +1,7 @@
 
 import { Component } from '@angular/core';
-import { Testimonial } from '../models/interfaces';
-import { IconPath } from '../static/icons';
+import { Testimonial } from '../../models/interfaces';
+import { IconPath } from '../../static/icons';
 
 @Component({
   selector: 'app-testimonials',

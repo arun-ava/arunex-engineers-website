@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { IconPath } from '../static/icons';
+import { IconPath } from '../../static/icons';
 
 @Component({
   selector: 'app-about',

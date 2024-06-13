@@ -3,16 +3,17 @@ import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HomeComponent } from './home/home.component';
-import { HeaderComponent } from './header/header.component';
-import { ContactComponent } from './contact/contact.component';
-import { AboutComponent } from './about/about.component';
+import { HomeComponent } from './views/home/home.component';
+import { HeaderComponent } from './views/header/header.component';
+import { ContactComponent } from './views/contact/contact.component';
+import { AboutComponent } from './views/about/about.component';
 import { CarouselModule } from '@coreui/angular';
-import { CardComponent } from './utils/card/card.component';
+import { CardComponent } from './views/common/card/card.component';
 import { MatModule } from './material.module';
-import { LandingComponent } from './landing/landing.component';
+import { LandingComponent } from './views/landing/landing.component';
 import { GoogleMapsModule } from '@angular/google-maps';
-import { TestimonialsComponent } from './testimonials/testimonials.component';
+import { TestimonialsComponent } from './views/testimonials/testimonials.component';
+import { ContactCardComponent } from './views/common/contact-card/contact-card.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { TestimonialsComponent } from './testimonials/testimonials.component';
     AboutComponent,
     CardComponent,
     LandingComponent,
-    TestimonialsComponent
+    TestimonialsComponent,
+    ContactCardComponent
   ],
   imports: [
     BrowserModule,
@@ -31,7 +33,6 @@ import { TestimonialsComponent } from './testimonials/testimonials.component';
     BrowserAnimationsModule,
     CarouselModule,
     MatModule,
-    
     GoogleMapsModule
   ],
   providers: [],
