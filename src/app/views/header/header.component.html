@@ -1,10 +1,8 @@
 <div class="header-container">
-    <span>
-        <span class="title-header">
-            {{title_header}}
-        </span>
+    <span class="title-header">
+        {{title_header}}
     </span>
-    <span>
+    <span style="display: flex; flex-direction: row;">
         <span class="nav-head" (click)="navItemClick(head)" *ngFor = "let head of nav_headers">
             {{head}}
         </span>

@@ -3,11 +3,30 @@
 
 
 .contact-card {
-    mat-icon {
-        height: 80px;
-        width: 80px;
-        font-size: 80px;
-        background: white;
-        color: #d7df23;
+    align-self: center;
+    .contact-card-header {
+        font-size: x-large
     }
+
+    .contact-card-subject {
+        font-weight: 600;
+        font-size: larger;
+    }
+
+    .contact-card-content {
+        font-weight: 600;
+        font-size: larger;
+    }
+
+    
+    .contact-card-icon {
+        // mat-icon {
+            height: 80px;
+            width: 80px;
+            font-size: 80px;
+            background: white;
+            color: #d7df23;
+        // }
+    }
+    
 }
