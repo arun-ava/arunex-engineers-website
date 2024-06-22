@@ -1,6 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
 @import "@coreui/coreui/scss/coreui";
 
+body {
+    background-color: #f7f7f7;;
+}
 
 .contact-card {
     align-self: center;
@@ -24,9 +27,23 @@
             height: 80px;
             width: 80px;
             font-size: 80px;
-            background: white;
             color: #d7df23;
         // }
     }
     
+    mat-icon {
+        height: 80px;
+        width: 80px;
+        font-size: 80px;
+        color: #d7df23;
+    }
+}
+
+.client-component {
+    .carousel-item {
+        img {
+            height: 40% !important;
+            width: 40% !important;
+        }
+    }
 }

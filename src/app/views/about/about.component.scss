@@ -36,3 +36,15 @@
     font-size: 60px;
     color: #072136;
 }
+
+.client-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+}
+
+.client-component {
+    width: 50%;
+    align-self: center;
+}

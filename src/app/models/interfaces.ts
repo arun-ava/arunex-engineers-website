@@ -4,3 +4,8 @@ export interface Testimonial {
     designation: string,
     imagePath?: string,
 }
+
+export interface Clients {
+    name: string,
+    imagePath?: string,
+}

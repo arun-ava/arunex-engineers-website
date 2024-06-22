@@ -1,0 +1,7 @@
+  <c-carousel [interval]="2000" transition="slide">
+      <c-carousel-inner >
+        <c-carousel-item *ngFor="let slide of slides">
+          <img src={{slide.imagePath}}>
+        </c-carousel-item>
+      </c-carousel-inner>
+  </c-carousel>

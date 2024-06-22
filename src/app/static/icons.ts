@@ -6,4 +6,5 @@ export const IconPath = {
     carousel2 : assetpath + 'carousel-2.svg',
     carousel3 : assetpath + 'carousel-3.svg',
     skyline : assetpath + 'skyline.jpg',
+    emerson : assetpath + 'emerson.png',
 }

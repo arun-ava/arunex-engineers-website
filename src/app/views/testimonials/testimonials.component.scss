@@ -6,7 +6,7 @@
     overflow: auto;
     background-color: transparent;
 }
-.testimonials-header {
+.clients-header {
     height: 20%;
     margin: 0px;
     text-align: center;;
@@ -25,11 +25,11 @@
     flex-direction: row;
 }
 
-.testimonial-card {
+.clients-card {
     width: 70%;
 }
 
-.testimonial-header-image {
+.clients-header-image {
     background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
     background-size: cover;
 }

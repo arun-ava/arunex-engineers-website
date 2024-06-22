@@ -12,18 +12,6 @@ export class TestimonialsComponent {
 
   slides: Testimonial[] = [];
 
-  servicesCardHeader = 'Services';
-  projectsCardHeader = 'Projects';
-  clientsCardHeader = 'Clients';
-  servicesCardBody = 'We have provided services to people all over the world';
-  projectsCardBody = 'Worked over 1000+ projects over a span of 20+ years';
-  clientsCardBody = 'We work with Titans of the industry';
-
-  informationBtnLabel = 'More Info';
-  
-
-  constructor() {}
-
   ngOnInit(): void {
     this.slides = [
       {

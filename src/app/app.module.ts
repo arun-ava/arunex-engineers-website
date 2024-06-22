@@ -14,6 +14,7 @@ import { LandingComponent } from './views/landing/landing.component';
 import { GoogleMapsModule } from '@angular/google-maps';
 import { TestimonialsComponent } from './views/testimonials/testimonials.component';
 import { ContactCardComponent } from './views/common/contact-card/contact-card.component';
+import { ClientsComponent } from './views/clients/clients.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { ContactCardComponent } from './views/common/contact-card/contact-card.c
     CardComponent,
     LandingComponent,
     TestimonialsComponent,
-    ContactCardComponent
+    ContactCardComponent,
+    ClientsComponent
   ],
   imports: [
     BrowserModule,
