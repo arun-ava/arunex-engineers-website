@@ -19,7 +19,7 @@ export class ClientsComponent {
         name: 'John Doe',
       },
       {
-        imagePath: IconPath.carousel2,
+        imagePath: IconPath.aramco,
         name: 'John Doe',
       },
       {
