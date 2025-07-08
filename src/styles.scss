@@ -47,3 +47,18 @@ body {
         }
     }
 }
+
+.information-container {
+    .card-button {
+        border: #0c3c60 solid 1px ;
+        background-color: #0c3c60;
+        // background-color: #3976a5;
+        color: white !important;
+    }
+
+    .card-button:hover {
+        background-color: white;
+        color: #3976a5 !important;
+        transition: 0.5s;
+    }
+}
