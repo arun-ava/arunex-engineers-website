@@ -1,0 +1,26 @@
+
+.circleBase {
+    border-radius: 50%;
+}
+
+.type1 {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 7vw;
+    height: 7vw;
+    background-color: #016a39;
+    z-index: 10;
+}
+
+.contact-card-header {
+    font-weight: 700;
+}
+
+.contact-card-subject {
+    font-weight: 500;
+}
+
+.contact-card-content {
+    font-weight: 500;
+}

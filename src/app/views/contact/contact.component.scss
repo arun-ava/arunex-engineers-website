@@ -5,6 +5,7 @@
     height: 70%;
     app-contact-card {
         width: 30%;
+        z-index: 10000;
         mat-icon {
             background: transparent;
         }
