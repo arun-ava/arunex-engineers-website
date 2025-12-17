@@ -4,9 +4,10 @@ import { Clients, Testimonial } from '../../models/interfaces';
 import { IconPath } from '../../static/icons';
 
 @Component({
-  selector: 'app-clients',
-  templateUrl: './clients.component.html',
-  styleUrls: ['./clients.component.scss']
+    selector: 'app-clients',
+    templateUrl: './clients.component.html',
+    styleUrls: ['./clients.component.scss'],
+    standalone: false
 })
 export class ClientsComponent {
 

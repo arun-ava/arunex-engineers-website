@@ -3,9 +3,10 @@ import { Router } from '@angular/router';
 import { ROUTES } from 'src/app/static/routes';
 
 @Component({
-  selector: 'app-card',
-  templateUrl: './card.component.html',
-  styleUrls: ['./card.component.scss']
+    selector: 'app-card',
+    templateUrl: './card.component.html',
+    styleUrls: ['./card.component.scss'],
+    standalone: false
 })
 export class CardComponent {
   @Input()

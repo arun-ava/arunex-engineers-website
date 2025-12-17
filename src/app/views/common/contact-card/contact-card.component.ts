@@ -2,9 +2,10 @@ import { Component, Input } from '@angular/core';
 import { MatIconButton } from '@angular/material/button';
 
 @Component({
-  selector: 'app-contact-card',
-  templateUrl: './contact-card.component.html',
-  styleUrls: ['./contact-card.component.scss']
+    selector: 'app-contact-card',
+    templateUrl: './contact-card.component.html',
+    styleUrls: ['./contact-card.component.scss'],
+    standalone: false
 })
 export class ContactCardComponent {
 
