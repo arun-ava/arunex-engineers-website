@@ -1,9 +1,11 @@
 <div class="card-container">
-    <span class="ar-card-header">
-        {{header}}
-    </span>
-    <span class="ar-card-body">
-        {{body}}
-    </span>
-    <button *ngIf="buttonLabel.length > 0" mat-stroked-button class="card-button" (click)="handleButtonClick($event)">{{buttonLabel}}</button>
+  <span class="ar-card-header">
+    {{header}}
+  </span>
+  <span class="ar-card-body">
+    {{body}}
+  </span>
+  @if (buttonLabel.length > 0) {
+    <button mat-stroked-button class="card-button" (click)="handleButtonClick($event)">{{buttonLabel}}</button>
+  }
 </div>
