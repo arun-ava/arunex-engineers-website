@@ -7,11 +7,9 @@ import { HomeComponent } from './views/home/home.component';
 import { HeaderComponent } from './views/header/header.component';
 import { ContactComponent } from './views/contact/contact.component';
 import { AboutComponent } from './views/about/about.component';
-import { CarouselModule } from '@coreui/angular';
 import { CardComponent } from './views/common/card/card.component';
 import { MatModule } from './material.module';
 import { LandingComponent } from './views/landing/landing.component';
-import { GoogleMapsModule } from '@angular/google-maps';
 import { TestimonialsComponent } from './views/testimonials/testimonials.component';
 import { ContactCardComponent } from './views/common/contact-card/contact-card.component';
 import { ClientsComponent } from './views/clients/clients.component';
@@ -33,9 +31,7 @@ import { ClientsComponent } from './views/clients/clients.component';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    CarouselModule,
     MatModule,
-    GoogleMapsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
