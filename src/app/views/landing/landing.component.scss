@@ -1,12 +1,13 @@
 .landing-container {
-    position: relative; 
-    text-align: center; 
+    position: relative;
+    text-align: center;
     color: black;
+    overflow: hidden;
 }
 
 .landing-image {
     width: 100%;
-    height: 350px;
+    object-fit: cover;
 }
 
 .text-container {
