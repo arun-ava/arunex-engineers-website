@@ -13,6 +13,15 @@ import { LandingComponent } from './views/landing/landing.component';
 import { TestimonialsComponent } from './views/testimonials/testimonials.component';
 import { ContactCardComponent } from './views/common/contact-card/contact-card.component';
 import { ClientsComponent } from './views/clients/clients.component';
+import { CarouselModule } from '@coreui/angular';
+import {
+  CarouselCaptionComponent,
+  CarouselComponent,
+  CarouselControlComponent,
+  CarouselIndicatorsComponent,
+  CarouselInnerComponent,
+  CarouselItemComponent
+} from '@coreui/angular';
 
 @NgModule({
   declarations: [
@@ -25,13 +34,14 @@ import { ClientsComponent } from './views/clients/clients.component';
     LandingComponent,
     TestimonialsComponent,
     ContactCardComponent,
-    ClientsComponent
+    ClientsComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MatModule,
+    CarouselModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

@@ -17,19 +17,19 @@ export class TestimonialsComponent {
     this.slides = [
       {
         imagePath: IconPath.carousel1,
-        name: 'John Doe',
+        name: 'John Doe 1',
         message: 'Very good company',
         designation:' CEO Some Company'
       },
       {
         imagePath: IconPath.carousel2,
-        name: 'John Doe',
+        name: 'John Doe 2',
         message: 'One of the best companies i have ever seen. this is a long message made to test the testimonial container.this is a long message made to test the testimonial container.this is a long message made to test the testimonial container.this is a long message made to test the testimonial container.this is a long message made to test the testimonial container.this is a long message made to test the testimonial container.this is a long message made to test the testimonial container.this is a long message made to test the testimonial container.this is a long message made to test the testimonial container.this is a long message made to test the testimonial container.this is a long message made to test the testimonial container.this is a long message made to test the testimonial container.',
         designation:' CEO Some Company'
       },
       {
         imagePath: IconPath.carousel3,
-        name: 'John Doe',
+        name: 'John Doe 3',
         message: 'Very good company',
         designation:' CEO Some Company'
       },
